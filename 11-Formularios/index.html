@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="container__image container__image--rosa">
+          <img
+            src="images/registro.png"
+            alt="registro"
+            class="image image--rosa"
+          />
+        </div>
+        <div class="container__main">
+          <h1 class="container__main__title">Hola!</h1>
+          <h2 class="container__main__subtitle">Comencemos el viaje</h2>
+          <form action="" class="container__main__form">
+            <label class="label" for="username">Username</label>
+            <input
+              class="input"
+              type="text"
+              id="username"
+              placeholder="Ingresa tu nombre de usuari0"
+            />
+            <label class="label" for="email">Email</label>
+            <input
+              class="input"
+              type="email"
+              id="email"
+              placeholder="ejemplo@dominio.com"
+            />
+            <label class="label" for="password">Contraseña</label>
+            <input
+              class="input"
+              type="password"
+              id="password"
+              placeholder="Ingresa tu contraseña"
+            />
+            <label class="label" for="confirm">Confirmar contraseña</label>
+            <input
+              class="input"
+              type="password"
+              id="confirm"
+              placeholder="Confirmar contraseña"
+            />
+            <div class="form__checkbox">
+              <input
+                type="checkbox"
+                name=""
+                id="checkbox"
+                class="form__checkbox__input"
+              />
+              <label class="label__checkbox" for="chekbox"
+                >Estoy de acuerdo con los
+                <a href="#">terminos y condiciones</a></label
+              >
+            </div>
+            <input
+              type="submit"
+              value="Registrarme"
+              id=""
+              class="input__submit"
+            />
+          </form>
+          <p class="cuenta">
+            Tienes una cuenta? <a href="login.html" target="_blank">Ingresa!</a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

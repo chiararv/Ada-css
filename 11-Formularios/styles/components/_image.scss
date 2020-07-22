@@ -1,0 +1,18 @@
+.container__image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--rosa{
+        background-color: $backgroun-color-img-index
+        ;
+    }
+    &--verde{
+        background-color:$backgroun-color-img-login
+    }
+}
+
+.image{
+    width: 80%;
+
+}

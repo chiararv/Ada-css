@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $sp1 0 $sp6 0;
+  .logo {
+    width: 50%;
+  }
+}

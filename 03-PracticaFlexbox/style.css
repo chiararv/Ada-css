@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1440px;
+  height: 1500px;
+  border: 1px solid black; 
+}
+.up{ 
+  height: 600px;
+  width: 800px;;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo{
+  margin-top: 50px;
+}
+.title{
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  font-size: 64px;
+  margin-top: 100px;
+}
+.title-bold{
+  color: black;
+  font-weight: 700;
+}
+.subtitle{
+  margin-top: 40px;
+  font-weight: 300;
+}
+.form{
+  margin-top: 40px;
+  position: relative;
+}
+.form-input{
+  height: 60px;
+  width: 500px;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 30px;
+  position: absolute;
+  left: -300px;
+}
+.form-input::placeholder{
+  color: hsl(223, 100%, 88%);
+  font-size: 25px;
+  padding-left: 50px;
+}
+.form-button{
+  font-size: 25px;
+  height: 60px;
+  width: 270px;
+  position: relative;
+  left: 250px;
+  border: none;
+  border-radius: 30px;
+  color: aliceblue;
+  background-color: hsl(223, 87%, 63%);
+  box-shadow: 0 10px 5px 1px hsl(223, 100%, 88%) ;
+}
+.down{
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+.copyright{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+i{
+  color: blue;
+  font-size: 30px;
+  padding: 0 15px;
+}

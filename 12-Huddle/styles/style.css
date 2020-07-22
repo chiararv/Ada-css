@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-bottom: 12rem;
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    margin: 6rem 6rem 12rem 6rem;
+  }
+}
+
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+@media screen and (min-width: 1280px) {
+  .card {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .card--inverted {
+    flex-direction: row;
+  }
+}
+.card .card__title {
+  margin: 2rem 0;
+}
+.card .card__img {
+  width: 70%;
+}
+@media screen and (min-width: 1280px) {
+  .card .card__img {
+    width: 50%;
+    padding: 3rem;
+  }
+}
+.card--small {
+  margin-top: -120px;
+  background-color: white;
+  color: black;
+}
+.card--small .card__title--small {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+@media screen and (min-width: 1280px) {
+  .card--small {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+  }
+}
+
+.btn {
+  color: white;
+  font-weight: 600;
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+}
+.btn--blanco {
+  background-color: white;
+  color: rgba(53, 52, 52, 0.979);
+  font-weight: 700;
+  box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);
+}
+
+.hero {
+  text-align: center;
+}
+@media screen and (min-width: 1280px) {
+  .hero .hero__info {
+    width: 60%;
+    margin-left: 2rem;
+    text-align: left;
+  }
+}
+.hero .hero__text {
+  margin: 2.5rem 0;
+}
+.hero .ilustration {
+  width: 80%;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 1280px) {
+  .hero .ilustration {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    display: flex;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 6rem 0;
+}
+.navbar .logo {
+  width: 50%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  padding: 2rem 1rem;
+}
+@media screen and (min-width: 1280px) {
+  .footer .footer__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer .footer__list {
+    width: 50%;
+  }
+}
+.footer .footer__list__item {
+  list-style: none;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+.footer .footer__list__item a {
+  text-decoration: none;
+  color: white;
+}
+.footer__list--text {
+  padding-left: 1rem;
+}
+.footer--social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer__icons {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+.footer small {
+  text-align: center;
+}
+
+.logo--white {
+  color: white;
+  width: 35%;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 1280px) {
+  .logo--white {
+    width: 15%;
+    margin-bottom: 1rem;
+  }
+}
+
+header {
+  background: url(../../images/bg-hero-mobile.svg) #ebfbff;
+  background-repeat: no-repeat;
+  padding: 0 5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  background-color: #00252e;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+{
+  "[json]": {},
+  "window.zoomLevel": 0,
+  "git.autofetch": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "prettier.eslintIntegration": true
+}

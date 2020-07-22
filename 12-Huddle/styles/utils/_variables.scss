@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap");
+// ## Colors
+
+// ### Primary
+
+$pink: hsl(322, 100%, 66%);
+
+// ### Neutral
+
+$very-pale-cyan: hsl(193, 100%, 96%);
+$very-dark-cyan: hsl(192, 100%, 9%);
+$grayish-blue: hsl(208, 11%, 55%);
+
+$Font-size: 18px;
+// ### Headings
+
+// - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+// - Weights: 600
+
+// ### Body, Call-to-actions
+
+// - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+// - Weights: 400, 700
+
+$font-weight-light: 400;
+$font-weight-medium: 600;
+$font-weight-bold: 700;
+
+$font-body: "Open Sans", sans-serif;
+
+$font-header: "Poppins", sans-serif;
+
+//espaciados
+
+$sp0: 0.5rem; //8px
+$sp1: 1rem; //16px
+$sp2: 2rem; //32px
+$sp3: 2.5rem; //40px
+$sp4: 3rem; //48px
+$sp5: 4rem; //64px
+$sp6: 6rem; //96px
+
+//pantallas
+
+$sm: 680px;
+$xl: 1280px;

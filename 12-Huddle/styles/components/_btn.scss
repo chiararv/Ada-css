@@ -1,0 +1,14 @@
+.btn {
+  color: white;
+  font-weight: $font-weight-medium;
+  background-color: $pink;
+  border: none;
+  border-radius: 10px;
+  padding: $sp0 $sp2;
+  &--blanco {
+    background-color: white;
+    color: rgba(53, 52, 52, 0.979);
+    font-weight: $font-weight-bold;
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);
+  }
+}

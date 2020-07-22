@@ -1,0 +1,14 @@
+.badge {
+  padding: $sp1 $sp2;
+  border: none;
+  border-radius: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  &--primary {
+    background-color: $primary-color;
+  }
+
+  &--black {
+    background-color: #000;
+  }
+}

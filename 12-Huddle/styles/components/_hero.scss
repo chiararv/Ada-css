@@ -1,0 +1,24 @@
+.hero {
+  text-align: center;
+  .hero__info {
+    @media screen and (min-width: $xl) {
+      width: 60%;
+      margin-left: $sp2;
+      text-align: left;
+    }
+  }
+  .hero__text {
+    margin: $sp3 0;
+  }
+  .ilustration {
+    width: 80%;
+    margin-top: $sp1;
+    @media screen and (min-width: $xl) {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+}

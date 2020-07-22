@@ -1,0 +1,83 @@
+.container__main {
+  width: 50%;
+  padding: $sp4 $sp5;
+  background-color: white;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .label {
+      padding: 0.2rem 0;
+      font-weight: bold;
+      font-size: $font-size-0;
+    }
+    .form__checkbox {
+      padding: 0 0 1rem;
+      font-size: $font-size-0;
+      display: flex;
+      align-items: center;
+      &__input {
+        margin-right: $sp0;
+      }
+    }
+    .input {
+      display: block;
+      width: 90%;
+      padding: $sp0;
+      border: 1px solid $default-border-color;
+      border-radius: 5px;
+      margin: 0 0 1.2rem;
+      &::placeholder {
+        color: $default-border-color;
+      }
+      &:hover {
+        border: 1px solid $hover-border-color;
+        outline: none;
+      }
+
+      &:focus {
+        color: $focus-border-color;
+      }
+
+      &:invalid {
+        color: $invalid-border-color;
+        outline: none;
+        border: 1px solid $invalid-border-color;
+      }
+
+      &:valid {
+        color: $valid-border-color;
+        border: 1px solid $valid-border-color;
+      }
+    }
+  }
+  &__title {
+    font-size: $font-size-2;
+    font-weight: bold;
+  }
+  &__subtitle {
+    font-size: $font-size-2;
+    font-weight: 400;
+    margin: $sp0 0 $sp1 0;
+  }
+  .input__submit {
+    color: white;
+    margin-top: $sp0;
+    padding: $sp0 $sp1;
+    border: none;
+    border-radius: 5px;
+    background-color: $background-color-btn;
+    margin: 0 0 1.2rem;
+  }
+  .cuenta {
+    font-size: $font-size-0;
+  }
+  .cuenta a {
+    text-decoration: none;
+    color: $link-color;
+
+    &:hover {
+      color: $hover-link-color;
+    }
+  }
+}
