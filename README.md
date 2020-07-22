@@ -2,7 +2,7 @@
 Proyectos hechos con html y css, algunos utilizando Sass, en el marco del curso de Ada ITW.
 
 # Páginas:
-[Huddle Landing Page](https://chiararv.github.io/ada-css/12-Huddle/index.html)
+[Huddle Landing Page](https://chiararv.github.io/ada-css/12-Huddle/index.html) /n
 [Formularios](https://chiararv.github.io/ada-css/11-Formularios/index.html)
 [Intro Component](https://chiararv.github.io/ada-css/08-ProjectTracking/index.html)
 [Polaroid](https://chiararv.github.io/ada-css/09-Polaroid/index.html)
