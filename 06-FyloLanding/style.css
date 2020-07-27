@@ -138,7 +138,7 @@ div.testimonial p{
 }
 
 .footer{
-    width: 90%;
+    width: 100%;
     background-color: var(--azul-oscuro);
     padding: 5%;
     color: #FFF;
@@ -147,7 +147,6 @@ div.testimonial p{
 .footer-box{
     margin-top: 25px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -170,11 +169,12 @@ div.testimonial p{
 
 .footer-social{
     display: flex;
-    width: 10%;
+    width: 12%;
     align-items: center;
     justify-content: space-around;
 }
 .box{
+    margin: 4px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
