@@ -17,7 +17,7 @@ Fotos con formato polaroid con ditintos filtros en hover.
 Landing de banco.
 
 [Fylo Landing](https://chiararv.github.io/ada-css/06-FyloLanding/index.html)
-Landing Fylo
+Landing Fylo.
 
 [Card Moderna](https://chiararv.github.io/ada-css/04-CardModerna/index.html)
 Card publicidad vacaciones.
