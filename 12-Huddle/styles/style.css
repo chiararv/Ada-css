@@ -122,11 +122,16 @@
 }
 
 .footer {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   color: white;
   padding: 2rem 1rem;
+}
+.footer .footer__info {
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (min-width: 1280px) {
   .footer .footer__info {
@@ -136,10 +141,8 @@
     justify-content: space-around;
   }
 }
-@media screen and (min-width: 1280px) {
-  .footer .footer__list {
-    width: 50%;
-  }
+.footer__details {
+  width: 30%;
 }
 .footer .footer__list__item {
   list-style: none;
